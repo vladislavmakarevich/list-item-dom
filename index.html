@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="head">
+            <h1>Item Lister</h1>
+            <input type="text" placeholder="Search Items...">
+        </div>
+    </header>
+    <main class="main" id="main">
+        <div class="main-insert">
+            <div class="add-title">
+                <h2>Add Items</h2>
+            </div>  
+            <form id="form-add" class="form-add">
+                <input type="text" class="input-add" id="input-add">
+                <input type="submit" value="Submit" class ="submit-add" id="submit-add">
+            </form>
+            <div class="add-title">
+                <h2>Items</h2>
+            </div>
+            <ul id="items" class="list-group">
+                <li class="list-group-item">
+                    Item 1
+                    <button class="delete" id="delete">X</button>
+                </li>
+                <li class="list-group-item">
+                    Item 2
+                    <button class="delete" id="delete">X</button>
+                </li>
+                <li class="list-group-item">
+                    Item 3
+                    <button class="delete" id="delete">X</button>
+                </li>
+                <li class="list-group-item">
+                    Item 4
+                    <button class="delete" id="delete">X</button>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <script src="./scr/index.js"></script>
+</body>
+</html>
