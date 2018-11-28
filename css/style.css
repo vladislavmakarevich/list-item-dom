@@ -50,6 +50,7 @@ body {
     border: 1px solid #DFDFDF;
     border-radius: 3px;
     margin-right: 8px;
+    font-size: 16px;
 }
 .form-add {
     margin-bottom: 16px;
